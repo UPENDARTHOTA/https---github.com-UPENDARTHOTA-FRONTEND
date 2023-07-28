@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Record Editor</title>
+  <link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body>
+  <h1>Record Editor</h1>
+
+  <div class="form-container">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter email">
+
+    <button id="save-button">Save Record</button>
+  </div>
+
+  <div id="record-list">
+    <h2>Records:</h2>
+    <ul id="records">
+      <!-- Existing records will be dynamically added here -->
+    </ul>
+  </div>
+
+  <script src="web.js"></script>
+</body>
+</html>
+

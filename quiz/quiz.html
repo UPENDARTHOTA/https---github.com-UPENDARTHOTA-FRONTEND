@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>General Knowledge Quiz</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="question">Question 1: What is the capital of France?</h2>
+        <div class="options">
+            <input type="radio" name="option" id="option1" value="Paris">
+            <label for="option1">Paris</label><br>
+            <input type="radio" name="option" id="option2" value="Berlin">
+            <label for="option2">Berlin</label><br>
+            <input type="radio" name="option" id="option3" value="London">
+            <label for="option3">London</label><br>
+            <input type="radio" name="option" id="option4" value="Madrid">
+            <label for="option4">Madrid</label><br>
+        </div>
+        <button id="submitBtn" onclick="checkAnswer()">Submit</button>
+        <div id="result"></div>
+    </div> 
+     
+    <script src="quiz.js"></script>
+</body>
+</html>
